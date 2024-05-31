@@ -1,0 +1,55 @@
+/* Common CSS Start */
+:root {
+    --primary-color: #FD6F00;
+    --body-bg-color: #1E1E1E;
+    --black: #000000;
+    --white: #FFFFFF;
+    --color-1: #8E8E8E;
+    --color-2: #343434;
+    --color-3: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--white);
+}
+
+.text {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--color-1);
+}
+
+/* Common CSS End */
+
+@media screen and (min-width: 640px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 1280px) {}
+
+@media screen and (min-width: 1536px) {}
